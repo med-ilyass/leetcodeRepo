@@ -3,9 +3,9 @@
  * @return {boolean}
  */
 var isPalindrome = function (x) {
-  //   const s = String(x);
-  //   return s === s.split().reverse().join("");
-
+    const n = String(x);
+    return x == n.split('').reverse().join('');
 };
 
-console.log(isPalindrome(113311));
+
+console.log(isPalindrome(21212))
