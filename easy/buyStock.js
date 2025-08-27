@@ -13,11 +13,10 @@ var maxProfit = function (prices) {
     if (nextS > profit) {
       profit = nextS;
     }
-
-    
   }
   return profit;
 };
 
 console.log(maxProfit([7, 1, 5, 3, 6, 4]));
-console.log(maxProfit([7,6,4,3,1]));
+console.log(maxProfit([7, 6, 4, 3, 1]));
+console.log(maxProfit([2, 4, 1]));
